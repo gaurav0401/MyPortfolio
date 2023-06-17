@@ -3,11 +3,25 @@
             padding: 0;
         }
 
-        body {
-            background-color: rgb(21, 11, 40);
-            font-family: 'poppins', sans-serif;
-            color: white;
-        }
+       body {
+	background: linear-gradient(-45deg, rgb(40, 22, 72), rgb(22, 34, 72), rgb(40, 22, 72), rgb(50, 22, 72));
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+    color: whitesmoke;
+    font-family: 'poppins', sans-serif;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
 
         nav {
             display: flex;
@@ -15,7 +29,7 @@
             align-content: center;
             height: 60px;
 
-            background-color: rgb(40, 22, 72);
+            background: linear-gradient(-45deg, rgb(40, 22, 72), rgb(22, 34, 72), rgb(40, 22, 72), rgb(50, 22, 72));
 
         }
 
@@ -130,10 +144,11 @@
         footer{
 
             margin-top: 25vh;
-            background-color: rgb(40, 22, 72);
+             background: linear-gradient(-45deg, rgb(40, 22, 72), rgb(22, 34, 72), rgb(40, 22, 72), rgb(50, 22, 72));
             padding-top: 5vh;
             padding-left: 5vh;
             padding-bottom: 10px;
+            opacity:0.7;
         }
 
         .bottom{
@@ -154,11 +169,11 @@
 
         .git{
 
-            border: 1px solid rgb(39, 20, 71);
+            border: 1px solid rgb(52, 25, 99);
             border-radius: 4px;
             height: 7vh;
             width: 8vw;
-            background-color: rgb(39, 20, 71);
+            background-color: rgb(52, 25, 99);
             font-size:15px;
         }
         .git a{
@@ -170,11 +185,11 @@
         .resume{
 
 
-            border: 1px solid rgb(39, 20, 71);
+            border: 1px solid rgb(52, 25, 99);
             border-radius: 4px;
             height: 7vh;
             width: 9vw;
-            background-color: rgb(39, 20, 71);
+            background-color: rgb(52, 25, 99);
              font-size:15px;
         }
 
