@@ -148,7 +148,7 @@
             padding-top: 5vh;
             padding-left: 5vh;
             padding-bottom: 10px;
-            opacity:0.7;
+
         }
 
         .bottom{
@@ -198,3 +198,92 @@
             color: white;
 
         }
+
+
+        @media screen and (max-width:840px  )
+
+        {
+
+            .left{
+                font-size: 1.5rem;
+                left: 8vw;
+            }
+
+            .right {
+                font-size: 1.1rem;
+                position: relative;
+                left: 8vw;
+
+            }
+
+            nav{
+                min-width: 940px;
+
+               padding-right: 0px;
+               flex-direction: column;
+               align-items: center;
+               justify-content: center;
+               min-width: 725px;
+               height: 12vh;
+
+            }
+
+          .leftsection{
+
+              font-size: 1.9rem;
+          }
+
+          .exp1{
+
+            position: relative;
+            left: 10vw;
+          }
+
+          /* .firstsection{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+          } */
+
+          .bg1{
+
+
+
+               position: static;
+
+               max-width: 200px;
+               min-width: 80px;
+               padding-left: 1vw;
+               padding-bottom: 4vh;
+               margin-right: 0px;
+               padding-right: 0px;
+
+
+
+
+          }
+
+          /* *{
+            margin-right: 0px;
+               padding-right: 0px;
+          } */
+
+            footer{
+
+                min-width: 683px;
+                position: relative;
+                top: 410px;
+            }
+        }
+
+        .resume{
+
+            min-width: 125px;
+        }
+
+        .git{
+             min-width: 125px;
+
+        }
+
