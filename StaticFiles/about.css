@@ -250,4 +250,19 @@
 
                 min-width: 583px;
             }
+
+
+            @media screen and (max-width:360px){
+
+             footer{
+
+                  min-width:800px;
+             }
+
+
+             .image1{
+
+                   padding-left:55vw;
+             }
+            }
         }

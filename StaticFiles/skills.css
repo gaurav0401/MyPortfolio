@@ -1,0 +1,346 @@
+ * {
+            margin: 0;
+            padding: 0;
+        }
+
+        /* body {
+             background-color: rgb(40, 22, 72);
+            font-family: 'poppins', sans-serif;
+            color: white;
+        } */
+
+
+        body {
+            background: linear-gradient(-45deg, rgb(44, 6, 65), rgb(22, 34, 72), rgb(44, 6, 65), rgb(50, 22, 72));
+            background-size: 400% 400%;
+            animation: gradient 15s ease infinite;
+            color: whitesmoke;
+            font-family: 'poppins', sans-serif;
+        }
+
+        @keyframes gradient {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+
+            height: 60px;
+
+            background: linear-gradient(-45deg, rgb(40, 22, 72), rgb(22, 34, 72), rgb(40, 22, 72), rgb(50, 22, 72));
+
+
+
+        }
+
+        nav ul {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+
+        }
+
+        nav ul li {
+            list-style: none;
+            margin: 0px 23px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: white;
+        }
+
+        nav ul li :hover {
+
+            color: rgb(52, 128, 149);
+            font-size: 1.3rem;
+        }
+
+        .left {
+            font-size: 1.8rem;
+            position: relative;
+            right: 7vw;
+            top: 5px;
+
+        }
+
+        .right {
+            padding-top: 10px;
+            font-size: 1.2rem;
+
+        }
+
+
+
+        footer {
+
+            margin-top: 25vh;
+            background: linear-gradient(-45deg, rgb(40, 22, 72), rgb(22, 34, 72), rgb(40, 22, 72), rgb(50, 22, 72));;
+            padding-top: 5vh;
+            padding-left: 5vh;
+            padding-bottom: 10px;
+        }
+
+        .bottom {
+
+            display: flex;
+
+
+        }
+
+        .bottom ul li {
+
+            list-style: none;
+            padding-right: 50vw;
+            padding-bottom: 10px;
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        @media screen and (max-width:920px) {
+
+            .left {
+                font-size: 1.5rem;
+                left: 8vw;
+            }
+
+            .right {
+                font-size: 1.1rem;
+                position: relative;
+                left: 8vw;
+
+            }
+
+            nav {
+                min-width: 300px;
+
+                padding-right: 0px;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                min-width: 640px;
+                height: 12vh;
+
+            }
+
+
+
+
+            body {
+
+                margin: 0;
+                padding: 0;
+
+            }
+
+            footer {
+
+                min-width: 583px;
+            }
+        }
+
+
+        @media screen and (max-width: 210px) {
+
+            .nav {
+
+                min-width: 210px;
+
+            }
+
+
+
+        }
+
+
+        .container1 h1 {
+
+            font-size: 3.5rem;
+            color: rgb(191, 189, 193);
+            margin-top: 10vh;
+            margin-left: 40vw;
+            margin-bottom: 12vh;
+            font-family: 'Kalam', cursive;
+            font-family: 'Poppins', sans-serif;
+
+
+        }
+
+        .projects h1 {
+
+            font-size: 3.5rem;
+            color: rgb(191, 189, 193);
+            margin-top: 15vh;
+            margin-left: 40vw;
+            margin-bottom: 12vh;
+            font-family: 'Kalam', cursive;
+            font-family: 'Poppins', sans-serif;
+
+
+        }
+
+        .projects a {
+
+            text-decoration: none;
+            color: aliceblue;
+            font-size: 19px;
+            font-style: normal;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+
+        .card img {
+
+
+            border: 1px solid white;
+            background-color: whitesmoke;
+            border-radius: 12px;
+
+        }
+
+        .projects img {
+
+
+            border: 1px solid white;
+            background-color: whitesmoke;
+            border-radius: 12px;
+
+
+        }
+
+        .card {
+
+            margin-left: 5vw;
+        }
+
+        .project{
+
+            margin-left: 5vw;
+        }
+
+        .card h4 {
+
+            font-size: 19px;
+            font-style: normal;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+
+        .collection1 {
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 5vh;
+
+        }
+
+        .collection2 {
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 5vh;
+        }
+
+        .collection3 {
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 5vh;
+        }
+
+        .collection4 {
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 5vh;
+        }
+
+
+        @media screen and (max-width:1050px) {
+
+            .collection1 {
+
+                display: flex;
+                flex-direction: column;
+
+
+
+
+            }
+
+            .collection2 {
+
+                display: flex;
+                flex-direction: column;
+
+
+            }
+
+            .collection3 {
+
+                display: flex;
+                flex-direction: column;
+
+            }
+
+            .collection4 {
+
+                       display: flex;
+                       flex-direction: column;
+
+                  }
+
+            .card {
+                margin-bottom: 5vw;
+                margin-left: 30vw;
+            }
+
+            .project {
+                margin-bottom: 5vw;
+                margin-left: 30vw;
+            }
+
+            .container1 h1 {
+                font-size: 2.8rem;
+            }
+
+            .projects h1 {
+                font-size: 2.8rem;
+            }
+
+            .footer {
+                min-width: 672px;
+            }
+
+        }
