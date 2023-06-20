@@ -206,13 +206,13 @@
 
             .left{
                 font-size: 1.5rem;
-                left: 8vw;
+                right: 18vw;
             }
 
             .right {
                 font-size: 1.1rem;
                 position: relative;
-                left: 8vw;
+               right: 18vw;
 
             }
 
@@ -271,7 +271,7 @@
 
             footer{
 
-                min-width: 683px;
+                min-width: 700px;
                 position: relative;
                 top: 410px;
             }

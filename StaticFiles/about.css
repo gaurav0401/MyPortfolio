@@ -197,13 +197,13 @@
 
             .left{
                 font-size: 1.5rem;
-                left: 8vw;
+                rightt: 14vw;
             }
 
             .right {
                 font-size: 1.1rem;
                 position: relative;
-                left: 8vw;
+              right: 14vw;
 
             }
 
@@ -225,7 +225,7 @@
               left: 40vw;
                max-width: 150px;
                min-width: 120px;
-               padding-left: 40vw;
+               padding-left: 50vw;
                padding-bottom: 4vh;
 
 
@@ -248,7 +248,7 @@
 
             footer{
 
-                min-width: 583px;
+                min-width: 700px;
             }
 
 
