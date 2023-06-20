@@ -288,6 +288,17 @@
         }
 
 
+          .collection5 {
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 5vh;
+        }
+
+
+
         @media screen and (max-width:1050px) {
 
             .collection1 {
@@ -329,6 +340,15 @@
                 right:14vw;
 
                   }
+
+             .collection5 {
+
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        right: 14vw;
+
+    }
 
             .card {
                 margin-bottom: 5vw;
